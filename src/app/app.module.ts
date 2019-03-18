@@ -7,12 +7,14 @@ import { NgModule } from '@angular/core';
 //components
 import { LoginComponentComponent } from './componnets/login-component/login-component.component';
 import { PageNotFoundComponent } from './componnets/page-not-found/page-not-found.component';
+import { HomeComponentComponent } from './componnets/home-component/home-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponentComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeComponentComponent
   ],
   imports: [
     AppRoutingModule,

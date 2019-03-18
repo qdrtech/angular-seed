@@ -1,11 +1,11 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { LoginComponentComponent } from '../componnets/login-component/login-component.component';
-import { AppComponent } from '../app.component';
 import { PageNotFoundComponent } from '../componnets/page-not-found/page-not-found.component';
+import { HomeComponentComponent } from '../componnets/home-component/home-component.component';
 
 const routes: Routes = [
-    { path: '', component: AppComponent },
+    { path : '', component: HomeComponentComponent},
     { path: 'login', component: LoginComponentComponent },
     { path: '**', component: PageNotFoundComponent }
 ];
